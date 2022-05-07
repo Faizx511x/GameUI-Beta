@@ -8,10 +8,13 @@ use pocketmine\command\Command;
 use pocketmine\command\CommandSender;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
+use pocketmine\utils\Config;
 
 use GameUI\Command\GameUICommand;
 
 use Vecnavium\FormsUI\SimpleForm;
+
+ private $config;
 
 class GameUI extends PluginBase implements Listener {
 	
