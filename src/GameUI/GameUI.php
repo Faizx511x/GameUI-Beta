@@ -75,7 +75,7 @@ class GameUI extends PluginBase implements Listener {
 		$form->addButton("");
 		$form->addButton("");
 		$form->addButton("§cEXIT");
-		$player->sendForm($form);
+		$form->sendToPlayer($player);
 		return $form;
 	}
 }
