@@ -33,7 +33,7 @@ class GameUI extends PluginBase implements Listener {
 
 	public function openMyForm($player){
 	    $api = $this->getServer()->getPluginManager()->getPlugin("FormAPI");
-	    $form = new SimpleForm(function (Player $player, int $data = null){
+	    $form = $api->createSimpleForm(function (Player $player, int $data = null){
 	    	$result = $data;
 	    	if($result === null){
 	    		return true;
