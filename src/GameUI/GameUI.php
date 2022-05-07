@@ -14,9 +14,10 @@ use GameUI\Command\GameUICommand;
 
 use Vecnavium\FormsUI\SimpleForm;
 
- private $config;
 
 class GameUI extends PluginBase implements Listener {
+	
+	private $config;
 	
 	public function onEnable(): void{
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
