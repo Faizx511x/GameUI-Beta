@@ -13,6 +13,11 @@ use pocketmine\plugin\PluginBase;
 
 class GameUI extends PluginBase implements Listener {
 	
+	public function onEnable(): void{
+		$this->getServer()->getPluginManager()->registerEvents($this, $this);
+		$this->getLogger()->info("GameUI Enabled");
+	}
+	
 	public function onCommand(CommandSender $sender, Command $cmd, String $label, Array $args) : bool {
 
 		switch ($cmd->getName()) {
