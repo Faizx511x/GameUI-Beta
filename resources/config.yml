@@ -1,0 +1,14 @@
+# Config:
+# UI-OnClick-Button-Commands
+# Do not use /
+GameUi-1: "command here"
+GameUi-2: "command here"
+GameUi-3: "command here"
+GameUi-4: "command here"
+GameUi-5: "command here"
+# Ui-Button-Names
+Button-1: "input the buttons name"
+Button-2: "input the buttons name"
+Button-3: "input the buttons name"
+Button-4: "input the buttons name"
+Button-5: "input the buttons name"
