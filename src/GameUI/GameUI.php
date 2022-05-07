@@ -10,7 +10,7 @@ use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 use pocketmine\utils\Config;
 
-use GameUI\Command\GameUICommand;
+use GameUI\command\GameUICommand;
 
 use Vecnavium\FormsUI\SimpleForm;
 
