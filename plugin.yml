@@ -7,7 +7,6 @@ author: ["FaizDev", "ItsToxicGG"]
 commands:
   games:
     description: GamesUi Command
-    usage: /games
     permission: games.cmd
 
 permissions:
