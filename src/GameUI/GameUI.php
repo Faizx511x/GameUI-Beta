@@ -9,6 +9,8 @@ use pocketmine\command\CommandSender;
 use pocketmine\event\Listener;
 use pocketmine\plugin\PluginBase;
 
+use Vecnavium\FormsUI\SimpleForm;
+
 class GameUI extends PluginBase implements Listener {
 	
 	public function onEnable(): void{
