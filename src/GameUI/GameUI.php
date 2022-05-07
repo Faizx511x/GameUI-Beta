@@ -19,6 +19,8 @@ class GameUI extends PluginBase implements Listener {
 		$this->getServer()->getPluginManager()->registerEvents($this, $this);
 		$this->getServer()->getCommandMap()->register("gamesui", new GameUICommand($this));
 		$this->config = new Config($this->getDataFolder() . "config.yml", Config::YAML);
+		@mkdir($this->getDataFolder());
+                $this->saveDefaultConfig();
 		$this->getLogger()->info("GameUI Enabled");
 	}
 
