@@ -6,6 +6,6 @@ projects:
   GameUI-Beta:
     path: ""
     libs:
-      - src: Vecnavium\FormsUI\FormsUI
+      - src: Vecnavium/FormsUI/FormsUI
         version: ^1.1.2
 ...
