@@ -5,5 +5,12 @@ version: 1.0
 author: ["FaizDev", "ItsToxicGG"]
 
 commands:
-  gamesui:
+  games:
     description: GamesUi Command
+    usage: /games
+    permission: games.cmd
+
+permissions:
+  games.cmd:
+    default: true
+    description: "Allows to open the Gamres UI"
