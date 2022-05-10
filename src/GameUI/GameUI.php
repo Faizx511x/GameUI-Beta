@@ -40,26 +40,22 @@ class GameUI extends PluginBase implements Listener {
 			break;
 				
 			case 1:
-			    $this->getServer()->getCommandMap()->dispatch($player, $this->getConfig()->get("GameUi-1"));		
+			    $this->getServer()->getCommandMap()->dispatch($player, $this->getConfig()->get("GameUi-2"));		
 			break;
 			
 			case 2:
-			     $this->getServer()->getCommandMap()->dispatch($player, $this->getConfig()->get("GameUi-2"));		
+			     $this->getServer()->getCommandMap()->dispatch($player, $this->getConfig()->get("GameUi-3"));		
 			break;
 				
 			case 3:
-		            $this->getServer()->getCommandMap()->dispatch($player, $this->getConfig()->get("GameUi-3"));	
+		            $this->getServer()->getCommandMap()->dispatch($player, $this->getConfig()->get("GameUi-4"));	
 			break;
 				
 			case 4:
-			    $this->getServer()->getCommandMap()->dispatch($player, $this->getConfig()->get("GameUi-4"));	
+			    $this->getServer()->getCommandMap()->dispatch($player, $this->getConfig()->get("GameUi-5"));	
 			break;
 				
 			case 5:
-			    $this->getServer()->getCommandMap()->dispatch($player, $this->getConfig()->get("GameUi-5"));		
-			break;
-				
-			case 6:
 				
 			break;
 	    	}
